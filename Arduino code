@@ -17,8 +17,6 @@ pinMode(s0Pin, OUTPUT);
 pinMode(s1Pin, OUTPUT);  
 pinMode(s2Pin, OUTPUT);  
 pinMode(s3Pin, OUTPUT);
-
-Karthi K, [31-12-2025 11:16 AM]
 pinMode(sensorOutPin, INPUT);  
  Serial.begin(9600);  
 gsmSerial.begin(9600);  
@@ -52,8 +50,6 @@ if (irValue == HIGH)
  delay(4000);  
 // Delay to avoid sending multiple messages  
  }
-
-Karthi K, [31-12-2025 11:16 AM]
 // Check MQ2 gas sensor for gas  
 if (mq2Value > 500)  
 {  
